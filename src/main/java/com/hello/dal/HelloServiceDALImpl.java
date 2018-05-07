@@ -15,6 +15,9 @@ import java.util.Map;
 
 /**
  * @author VipinK
+ *
+ * Exception thrown in this class are very generic and with no proper response code. So please ignore that part.
+ * You have to create your own exception and throw that
  */
 @Repository
 public class HelloServiceDALImpl implements HelloServiceDAL {
